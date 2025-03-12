@@ -674,12 +674,12 @@
       "USB and Power"
     ],
     [
-      "019b6fa9-e816-4b8f-82b5-e4d967e6d33b",
-      "IO"
+      "a28cd30f-7c3e-4c06-83c3-f19552114207",
+      "ESP MCU"
     ],
     [
-      "3bf8886e-ecc0-44cc-b41e-06e7ec0d4e75",
-      "STM MCU"
+      "019b6fa9-e816-4b8f-82b5-e4d967e6d33b",
+      "IO"
     ]
   ],
   "text_variables": {}
