@@ -1737,7 +1737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26c74dc4-9c60-498b-87e3-0a5e929287b5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 224.79 27.94 0)
 			(effects
 				(font
@@ -1788,7 +1788,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1803,7 +1803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63bc90bb-b61c-4365-8e77-070a1ee9676a")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 228.6 29.21 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1872,7 +1872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66ec5871-570b-429c-a6be-cf37ba87b821")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1937,7 +1937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bedb751-b0dc-47bb-be65-00d6be5e3eba")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 69.85 162.56 90)
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e5a30e5-a287-4db6-83a2-47d34d519fae")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 63.5 118.11 0)
 			(effects
 				(font
@@ -2055,7 +2055,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2070,7 +2070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81dd74fa-c292-4045-a32d-9045f9a91468")
-		(property "Reference" "D15"
+		(property "Reference" "D1"
 			(at 60.96 154.94 0)
 			(effects
 				(font
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "D15")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879049a7-be1f-4d87-a52b-dd72ab93b036")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR05"
 			(at 50.8 160.02 0)
 			(effects
 				(font
@@ -2189,7 +2189,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "#PWR021")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2204,7 +2204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dd508d6-0487-48e3-8f47-99822bdadf92")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -2258,7 +2258,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2341,7 +2341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4fabb7e-72d9-4708-82fd-dbb8fa78d3a8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR06"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "#PWR01")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2407,7 +2407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb76d99d-239a-47d0-aa02-f64efec7f583")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -2461,7 +2461,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2087cd0-f97b-415f-b41d-875ad95f9ea4")
-		(property "Reference" "R55"
+		(property "Reference" "R5"
 			(at 69.85 157.48 90)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R55")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2543,7 +2543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c63f637e-a204-41ca-aad9-5bfec6332c2c")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 62.23 167.64 0)
 			(effects
 				(font
@@ -2595,7 +2595,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c5c68a-c3b9-4899-a943-a7e010d50611")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 224.79 29.21 0)
 			(effects
 				(font
@@ -2664,7 +2664,7 @@
 		(instances
 			(project "watch-pcb"
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
