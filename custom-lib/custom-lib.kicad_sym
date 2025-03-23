@@ -2887,7 +2887,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
-			(at 0 0 0)
+			(at 0.254 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2925,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ST Microelectronics"
-			(at 0 0 0)
+			(at 0 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2935,7 @@
 			)
 		)
 		(property "STANDARD" "IPC7351B"
-			(at 0 0 0)
+			(at 0.254 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
