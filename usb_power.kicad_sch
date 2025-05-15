@@ -4630,12 +4630,6 @@
 		(uuid "f050a501-282a-427e-a360-ad791a07ccde")
 	)
 	(junction
-		(at 251.46 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0863dac-1f12-479c-b20e-9aedd12eef4a")
-	)
-	(junction
 		(at 39.37 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4694,6 +4688,10 @@
 		(uuid "da797230-32b9-404e-812e-00585fe6d85f")
 	)
 	(no_connect
+		(at 229.87 52.07)
+		(uuid "e8136ac9-5503-47fd-814b-06aeaeb7979a")
+	)
+	(no_connect
 		(at 46.99 180.34)
 		(uuid "f42ba278-7f21-4d81-944e-f9b2fb9e4dd5")
 	)
@@ -4706,16 +4704,6 @@
 			(type default)
 		)
 		(uuid "0162906a-99fc-4e29-ad85-2ce727188449")
-	)
-	(wire
-		(pts
-			(xy 251.46 49.53) (xy 251.46 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a05e68-f4b4-43f4-aba0-7639c93e147c")
 	)
 	(wire
 		(pts
@@ -5129,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 50.8) (xy 255.27 50.8)
+			(xy 251.46 49.53) (xy 255.27 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5986,26 +5974,6 @@
 			(type default)
 		)
 		(uuid "b86bc6bb-9e3e-4231-b349-53730cbe3087")
-	)
-	(wire
-		(pts
-			(xy 251.46 50.8) (xy 251.46 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9df77e3-c36e-4b58-9d69-50ff80939080")
-	)
-	(wire
-		(pts
-			(xy 229.87 52.07) (xy 236.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb13c4ad-d2b2-44b7-9cc4-a27a5b66d962")
 	)
 	(wire
 		(pts
@@ -6950,7 +6918,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 255.27 50.8 270)
+		(at 255.27 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6959,7 +6927,7 @@
 		(fields_autoplaced yes)
 		(uuid "17591f97-62a4-4298-a47b-87a121a17075")
 		(property "Reference" "#PWR021"
-			(at 251.46 50.8 0)
+			(at 251.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6936,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 259.08 50.7999 90)
+			(at 259.08 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 50.8 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 50.8 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 50.8 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,73 +7639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 240.03 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "497bdbf7-237f-4cad-8d3f-5b764ba0c3dc")
-		(property "Reference" "D5"
-			(at 243.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "POWER GOOD"
-			(at 243.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 240.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "908bcc0b-5ad0-42b3-9670-1158d7bdbd4a")
-		)
-		(pin "2"
-			(uuid "de987434-c454-4613-89ca-0bd2a71e5087")
-		)
-		(instances
-			(project "watch-pcb"
-				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad/ac5844b2-70bd-47c8-b13a-e6d4bebf0e4d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 207.01 24.13 270)
 		(unit 1)
@@ -8391,7 +8292,7 @@
 		(dnp no)
 		(uuid "61d84641-e7d8-4ad0-922f-f468f861c0de")
 		(property "Reference" "R13"
-			(at 254 49.53 90)
+			(at 252.222 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,73 +10248,6 @@
 			(project ""
 				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad/ac5844b2-70bd-47c8-b13a-e6d4bebf0e4d"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 247.65 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7a74391-d6cf-4396-b7e0-5c8461c4b3a2")
-		(property "Reference" "R14"
-			(at 254 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 247.65 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.65 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "578ffc55-b969-4f12-8a4a-7ab6bb042b70")
-		)
-		(pin "2"
-			(uuid "f7b40c95-96a8-4330-b6bb-2deeb56cb219")
-		)
-		(instances
-			(project "watch-pcb"
-				(path "/b7b86b03-b0df-4b4e-be1d-606605306dad/ac5844b2-70bd-47c8-b13a-e6d4bebf0e4d"
-					(reference "R14")
 					(unit 1)
 				)
 			)
