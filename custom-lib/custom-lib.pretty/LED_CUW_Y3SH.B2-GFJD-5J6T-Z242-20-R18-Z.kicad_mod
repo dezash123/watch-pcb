@@ -279,4 +279,15 @@
 		(uuid "950dc782-ea24-42c3-8a38-c254db043b9b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom-lib/models/OSRAM CUW Y3SH.B2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

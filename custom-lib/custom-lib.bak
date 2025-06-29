@@ -12775,7 +12775,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 22.86 0)
+			(at 0 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +12783,7 @@
 			)
 		)
 		(property "Value" "TT143AMC12C"
-			(at 0 20.32 0)
+			(at 0 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,23 +12817,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TT143AMC12C_0_1"
-			(rectangle
-				(start 19.05 15.24)
-				(end 36.83 -12.7)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(symbol "TT143AMC12C_1_1"
 			(rectangle
-				(start -27.94 -6.35)
-				(end -17.78 6.35)
+				(start -5.08 -6.35)
+				(end 5.08 6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -12843,15 +12838,7 @@
 				)
 			)
 			(text "CHSC6417EU24\n(Touchpad)"
-				(at -22.86 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "CO5300\n(Display)"
-				(at 27.94 17.78 0)
+				(at 0 -8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12859,7 +12846,7 @@
 				)
 			)
 			(pin output line
-				(at -31.75 3.81 0)
+				(at -8.89 3.81 0)
 				(length 3.81)
 				(name "INT"
 					(effects
@@ -12877,7 +12864,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -31.75 1.27 0)
+				(at -8.89 1.27 0)
 				(length 3.81)
 				(name "SDA"
 					(effects
@@ -12895,7 +12882,7 @@
 				)
 			)
 			(pin input line
-				(at -31.75 -1.27 0)
+				(at -8.89 -1.27 0)
 				(length 3.81)
 				(name "SCL"
 					(effects
@@ -12913,7 +12900,7 @@
 				)
 			)
 			(pin input line
-				(at -31.75 -3.81 0)
+				(at -8.89 -3.81 0)
 				(length 3.81)
 				(name "RST"
 					(effects
@@ -12931,7 +12918,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 3.81 180)
+				(at 8.89 3.81 180)
 				(length 3.81)
 				(name "VDD"
 					(effects
@@ -12949,7 +12936,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -3.81 180)
+				(at 8.89 -3.81 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -12966,8 +12953,29 @@
 					)
 				)
 			)
+		)
+		(symbol "TT143AMC12C_2_1"
+			(rectangle
+				(start -8.89 13.462)
+				(end 8.89 -13.462)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "CO5300\n(Display)"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin power_in line
-				(at 15.24 12.7 0)
+				(at -12.7 11.43 0)
 				(length 3.81)
 				(name "ELVDD"
 					(effects
@@ -12985,7 +12993,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 10.16 0)
+				(at -12.7 8.89 0)
 				(length 3.81)
 				(name "ELVSS"
 					(effects
@@ -13003,7 +13011,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 7.62 0)
+				(at -12.7 6.35 0)
 				(length 3.81)
 				(name "SWIRE"
 					(effects
@@ -13021,7 +13029,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 3.81 0)
+				(at -12.7 2.54 0)
 				(length 3.81)
 				(name "VDD"
 					(effects
@@ -13039,7 +13047,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 1.27 0)
+				(at -12.7 0 0)
 				(length 3.81)
 				(name "IOVCC"
 					(effects
@@ -13057,8 +13065,9 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -2.54 0)
+				(at -12.7 -8.89 0)
 				(length 3.81)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -13075,8 +13084,9 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -5.08 0)
+				(at -12.7 -8.89 0)
 				(length 3.81)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -13093,7 +13103,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -7.62 0)
+				(at -12.7 -8.89 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -13111,35 +13121,16 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -10.16 0)
+				(at -12.7 -11.43 0)
 				(length 3.81)
-				(name "GND"
+				(name "SHIELD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 26.67 -15.24 180)
-				(length 3.81)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13148,7 +13139,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 12.7 180)
+				(at 12.7 11.43 180)
 				(length 3.81)
 				(name "CS"
 					(effects
@@ -13166,7 +13157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 10.16 180)
+				(at 12.7 8.89 180)
 				(length 3.81)
 				(name "D0"
 					(effects
@@ -13184,7 +13175,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 7.62 180)
+				(at 12.7 6.35 180)
 				(length 3.81)
 				(name "D1"
 					(effects
@@ -13202,7 +13193,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 5.08 180)
+				(at 12.7 3.81 180)
 				(length 3.81)
 				(name "D2"
 					(effects
@@ -13220,7 +13211,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 40.64 2.54 180)
+				(at 12.7 1.27 180)
 				(length 3.81)
 				(name "D3"
 					(effects
@@ -13238,7 +13229,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 0 180)
+				(at 12.7 -1.27 180)
 				(length 3.81)
 				(name "SCL"
 					(effects
@@ -13256,7 +13247,7 @@
 				)
 			)
 			(pin output line
-				(at 40.64 -3.81 180)
+				(at 12.7 -5.08 180)
 				(length 3.81)
 				(name "TE"
 					(effects
@@ -13274,7 +13265,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -6.35 180)
+				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "RST"
 					(effects
@@ -13292,7 +13283,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -10.16 180)
+				(at 12.7 -11.43 180)
 				(length 3.81)
 				(name "MTP_PWR"
 					(effects

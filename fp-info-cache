@@ -1,4 +1,4 @@
-20899855216924
+24411561964779
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99553,6 +99553,20 @@ LED_CUW_Y3SH.B2-GFJD-5J6T-Z242-20-R18-Z
 0
 2
 2
+custom-lib
+MOLEX_503398-1892
+
+
+0
+14
+14
+custom-lib
+MOLEX_505550-2420
+
+
+0
+28
+25
 custom-lib
 OK-14GF024-04
 
